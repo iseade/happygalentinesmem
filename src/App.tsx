@@ -47,7 +47,7 @@ function App() {
                 yes
               </button>
             </a>
-            {idx <= 12 && (
+            {idx <= buttonTexts.length && (
               <button
                 style={{ height: idx === 0 ? 50 : undefined }}
                 onClick={() => {
@@ -61,7 +61,7 @@ function App() {
             )}
           </div>
         )}
-        {idx > 12 && !isYesPressed && (
+        {idx > buttonTexts.length && !isYesPressed && (
           <div className="w-screen">
             wala kang choice haha mag-yes ka na pls 🥺
           </div>
