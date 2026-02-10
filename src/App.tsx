@@ -47,7 +47,7 @@ function App() {
                 yes
               </button>
             </a>
-            {idx <= buttonTexts.length && (
+            {idx < buttonTexts.length && (
               <button
                 style={{ height: idx === 0 ? 50 : undefined }}
                 onClick={() => {
