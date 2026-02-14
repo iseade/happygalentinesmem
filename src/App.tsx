@@ -8,18 +8,18 @@ function App() {
   const [isOkPressed, setIsOkPressed] = useState(false);
   const buttonTexts = [
     "no",
-    "ayaw ko",
-    "nagseselos ako",
-    "ay kanino ka nagseselos?",
-    "joke lang xD",
-    "bakit ayaw mong pumayag",
-    "ang laki na masyado ng yes",
-    "PUMAYAG KA NA",
-    "alam kong kinikilig ka rin naman",
-    "babe pls... 🥺",
-    "pag-usapan natin 'to 💔",
-    "bakit ayaw mo",
-    "sapilitan na lang",
+    "i miss you,mem",
+    "i hope your doing well",
+    "take care of yourself 🩺",
+    "let's chika soon pls",
+    "sorry for being MIA",
+    "pinky promise dili nako mang-ghost👻",
+    "coffee date, when? ",
+    "can't wait to see you again",
+    "i love you berry much🍓",
+    "thank you for being my friend💞",
+    "💐💞",
+    "heartheartheart",
   ];
 
   return (
@@ -28,16 +28,16 @@ function App() {
         {!isYesPressed && (
           <div className="flex flex-col gap-4">
             <h1 className="font-bold">
-              azriel gonzales will u be my valentine!!!
+              happy valentines, dearest mayzie 💐
             </h1>
-            <h3>pls 🥺</h3>
+            <h3>ily💞</h3>
           </div>
         )}
         {!isYesPressed && (
           <div className="flex gap-4 items-end">
             <a
               target="_blank"
-              href="https://www.youtube.com/watch?v=xjf9e6s3Cbs&list=RDxjf9e6s3Cbs&t=143s"
+              href="https://www.instagram.com/p/DUovrrtiUX0/?igsh=amR5amFoYXB2MXN2"
             >
               <button
                 onClick={() => setIsYesPressed(true)}
@@ -63,31 +63,31 @@ function App() {
         )}
         {idx > buttonTexts.length && !isYesPressed && (
           <div className="w-screen">
-            wala kang choice haha mag-yes ka na pls 🥺
+            i hope your day is filled with happiness and so much love💞💫
           </div>
         )}
       </div>
       {isYesPressed && !isOkPressed && (
         <div className="flex flex-col items-center justify-center gap-4">
           <div className="flex flex-col gap-4 text-xs">
-            ops nakangiti ka na oh balik ka na sa chat natin dali
+            this is for you💐
           </div>
           <button
             onClick={() => setIsOkPressed(true)}
             className="bg-green-500! text-white px-4 py-2 rounded-md"
           >
-            ok po
+            💗
           </button>
         </div>
       )}
       {isOkPressed && (
         <div className="flex flex-col items-center justify-center gap-16">
           <h1 className="flex flex-col gap-4 text-xs">
-            happy valentines, babe! you make me ready to dive.
+            happy valentines, dearest mayzie💐
           </h1>
           <div className="flex flex-col gap-4 text-xs">
-            always urs, <br />
-            lucas ♥️
+            always here, <br />
+            cj ♥️
           </div>
         </div>
       )}
