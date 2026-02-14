@@ -28,7 +28,7 @@ function App() {
         {!isYesPressed && (
           <div className="flex flex-col gap-4">
             <h1 className="font-bold">
-              happy valentines, dearest mayzie 💐
+              happy hearts day, dearest mayzie 💐
             </h1>
             <h3>ily💞</h3>
           </div>
@@ -83,7 +83,7 @@ function App() {
       {isOkPressed && (
         <div className="flex flex-col items-center justify-center gap-16">
           <h1 className="flex flex-col gap-4 text-xs">
-            happy valentines, dearest mayzie💐
+            happy hearts day, dearest mayzie💐
           </h1>
           <div className="flex flex-col gap-4 text-xs">
             always here, <br />
